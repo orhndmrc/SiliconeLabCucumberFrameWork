@@ -11,10 +11,11 @@ import io.cucumber.testng.CucumberOptions;
         //This create auto method name in camelCase
         monochrome = true,
         dryRun = false,
+        strict = true,
         //Path to your feature file
         features = {"src/test/resources/features"},
         // Specify tags to be executed
-        tags = {"@login"},
+        tags = {"@SS1"},
         //Specify step definition package name (Note: make sure to have this package on current directory)
         glue = {"stepdefinition"}
 )
