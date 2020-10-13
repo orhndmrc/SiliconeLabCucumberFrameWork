@@ -26,6 +26,7 @@ public class ElementUtil {
      * @param locator
      * @return
      */
+    //locator = By.id("")  webElement= driver.findElement(locator)
     public static WebElement webAction(final By locator){
         Wait<WebDriver> wait = new FluentWait<WebDriver>(BasePage.get())
                 .withTimeout(Duration.ofSeconds(15))
